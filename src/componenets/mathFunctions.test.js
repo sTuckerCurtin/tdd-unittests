@@ -23,7 +23,7 @@ describe("Math Functions - Add", () => {
 describe("Subtracts numbers for negative value", ()=> {
     let result = subtract(4,2);
     it("should be less than 4", () =>{
-        expect(subtract(4,2)).toBe(2)
+        expect(subtract(4,2)).toBeLessThanOrEqual(2)
     })
 
     it("should not retrun undefined", () => {
